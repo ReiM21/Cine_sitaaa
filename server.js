@@ -4,7 +4,8 @@ var mongoose = require('mongoose'); 				// mongoose para mongodb
 var port  	 = process.env.PORT || 8080; 			// Cogemos el puerto 8080
 
 
-mongoose.connect('mongodb://localhost:27017/Taquilla'); 	// Hacemos la conexión a la base de datos de Mongo con nombre "MeanExample"
+//mongoose.connect('mongodb://localhost:27017/Taquilla'); 	// Hacemos la conexión a la base de datos de Mongo con nombre "MeanExample"
+mongoose.connect('mongodb://bb-sita:pass123@ds341825.mlab.com:41825/cedespruebas')
 //mongoose.connect('mongodb://mavar84:Candelabro30@ds111589.mlab.com:11589/conflicto'); 
 //mongodb://<dbuser>:<dbpassword>@
 //mongoose.connect('mongodb://mavar84:Candelabro30@ds139959.mlab.com:39959/pegasus'); 

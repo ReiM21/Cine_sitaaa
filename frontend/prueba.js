@@ -76,7 +76,7 @@ return new Promise(function(resolve, reject) {
  try {
 
           var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/Modificapelicula');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/Modificapelicula');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -111,7 +111,7 @@ return new Promise(function(resolve, reject) {
  try {
 
           var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/Eliminapelicula');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/Eliminapelicula');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -145,7 +145,7 @@ return new Promise(function(resolve, reject) {
  try {
 
           var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionartodos');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionartodos');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -180,7 +180,7 @@ return new Promise(function(resolve, reject) {
  try {
 
           var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionarporfecha');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionarporfecha');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -215,7 +215,7 @@ return new Promise(function(resolve, reject) {
  try {
 
           var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionarporid');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionarporid');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -251,7 +251,7 @@ return new Promise(function(resolve, reject) {
  try {
 
           var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionarpornombre');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionarpornombre');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -282,7 +282,7 @@ var vectordepeliculasfiltradas = []; // Es un vector con las peliculas en la bas
 return new Promise(function(resolve, reject) { // Una promesa
 try {
 var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionapelicula');  //  Abre un link con el atributo seleccionar todos los documentos
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionapelicula');  //  Abre un link con el atributo seleccionar todos los documentos
 xhr.setRequestHeader('Content-Type', 'application/json');  //  Formato JSON
 xhr.onload = function() {
   if (xhr.status === 200) {  //  200 si no hay problemas, 404 si no se encuentra

@@ -59,7 +59,7 @@ return new Promise(function(resolve, reject) {
 try {
 
        var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/loginadmin');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/loginadmin');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -94,7 +94,7 @@ return new Promise(function(resolve, reject) {
 try {
 
        var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/Eliminapelicula');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/Eliminapelicula');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -128,7 +128,7 @@ return new Promise(function(resolve, reject) {
 try {
 
        var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionartodos');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionartodos');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
@@ -164,7 +164,7 @@ return new Promise(function(resolve, reject) {
 try {
 
        var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://localhost:8080/api/seleccionarporid');
+xhr.open('POST', 'https://bbecitaaa.herokuapp.com/api/seleccionarporid');
 xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.onload = function() {
 if (xhr.status === 200) {
